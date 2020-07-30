@@ -2,11 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
-}
-
-body {
-	background: #F3F3F3;
+    font-family: sans-serif;
+    background: #F3F3F3;
 }
 
 header {
@@ -30,17 +27,6 @@ main .list {
 	background-color: #FFF;
 	border: 1px solid #CCC;
 	margin-top: 25px;
-}
-
-main .list .item {
-	padding: 15px;
-	border-bottom: 1px solid #CCC;
-}
-main .list .item:last-of-type {
-	border-bottom: none;
-}
-main .list .item:hover {
-	background: rgba(0, 0, 0, 0.05);
 }
 
 .pagenumbers {
@@ -84,4 +70,5 @@ table, td {
     padding: 15px;
     border-spacing: 5px;
     width: 50%;
+    background: white;
   }
